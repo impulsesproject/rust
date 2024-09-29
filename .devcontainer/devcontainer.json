@@ -1,0 +1,24 @@
+{
+    "name": "rust-environment",
+    "dockerComposeFile": ["docker-compose.yml"],
+
+    "service": "rust-impulse",
+    "runServices": ["rust-impulse"],
+    "shutdownAction": "stopCompose",
+    
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "chmod +x /workspace/.devcontainer/post-create.sh && /workspace/.devcontainer/post-create.sh",
+    "overrideCommand": true,
+    "remoteUser": "root",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "fill-labs.dependi",
+                "tamasfe.even-better-toml",
+                "dustypomerleau.rust-syntax",
+                "rust-lang.rust-analyzer"
+            ]
+        }
+    }
+}
