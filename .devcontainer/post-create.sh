@@ -2,4 +2,4 @@
 
 cd /workspace
 
-echo "impulse ready.."
+echo "[INFO] impulse ready.."
