@@ -2,7 +2,7 @@
 services:
   rust-impulse:
     image: bkataru/impulses:rust-generic
-    container_name: rust-impulse-container
+    container_name: rust-generic-impulse-container
     build:
       context: .
       dockerfile: ./Dockerfile
