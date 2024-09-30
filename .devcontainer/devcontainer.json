@@ -14,6 +14,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "vscode-icons-team.vscode-icons",
                 "fill-labs.dependi",
                 "tamasfe.even-better-toml",
                 "dustypomerleau.rust-syntax",
