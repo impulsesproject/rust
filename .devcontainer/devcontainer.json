@@ -1,9 +1,9 @@
 {
-    "name": "rust-environment",
+    "name": "rust-generic-environment",
     "dockerComposeFile": ["docker-compose.yml"],
 
-    "service": "rust-impulse",
-    "runServices": ["rust-impulse"],
+    "service": "rust-generic-impulse",
+    "runServices": ["rust-generic-impulse"],
     "shutdownAction": "stopCompose",
     
     "workspaceFolder": "/workspace",
